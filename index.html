@@ -718,5 +718,37 @@
       }
     })();
   </script>
+
+<script type="module">
+    import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk";
+
+    async function initFarcaster() {
+      try {
+        // ждём полной загрузки, на всякий случай
+        if (document.readyState !== "complete") {
+          await new Promise(resolve => {
+            window.addEventListener("load", () => resolve(null), { once: true });
+          });
+        }
+
+        // говорим Farcaster, что мини-аппа готова
+        await sdk.actions.ready();
+        console.log("Farcaster SDK ready");
+
+        // один раз просим добавить мини-аппу — вызовет системный поп-ап
+        try {
+          await sdk.actions.addMiniApp();
+          console.log("addMiniApp called");
+        } catch (e) {
+          console.warn("addMiniApp failed (probably not inside Farcaster):", e);
+        }
+      } catch (e) {
+        console.warn("Mini App SDK init error:", e);
+      }
+    }
+
+    initFarcaster();
+  </script> 
+
 </body>
 </html>
