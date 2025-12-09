@@ -1,4 +1,10 @@
 {
+  "accountAssociation": {
+    "header": "eyJmaWQiOjUzOTY0MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDkxYTMzM0NCYTU0ODA0RTlGNUJENzFENUY2QzhiMzhGMTI3N2Q3OTYifQ",
+    "payload": "eyJkb21haW4iOiJkZWdlbi1zcGluLnZlcmNlbC5hcHAifQ",
+    "signature": "iYuCgJP7zWI2zv8F28r+hss/8STDFZO+i6SCqt+vWrRh65cxmVL9oEd5XX8XAzxcRl1myvCOdUpjTQqhoZf7yhw="
+  },
+
   "miniapp": {
     "version": "1",
     "name": "Degen Spin",
