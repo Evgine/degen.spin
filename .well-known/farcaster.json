@@ -2,9 +2,9 @@
   "miniapp": {
     "version": "1",
     "name": "Degen Spin",
-    "iconUrl": "https://your-domain.com/icon.png",
-    "homeUrl": "https://your-domain.com",
-    "splashImageUrl": "https://your-domain.com/splash.png",
+    "iconUrl": "https://degen-spin-7dx92kapg-evgens-projects-4aaa86be.vercel.app/icon.png",
+    "homeUrl": "https://degen-spin-7dx92kapg-evgens-projects-4aaa86be.vercel.app/",
+    "splashImageUrl": "https://degen-spin-7dx92kapg-evgens-projects-4aaa86be.vercel.app/splash.png",
     "splashBackgroundColor": "#050509",
     "subtitle": "Onchain-style slot mini game",
     "description": "Spin in Safe or Degen mode, collect virtual wins and keep your daily streak on Farcaster.",
@@ -17,6 +17,6 @@
     ],
     "ogTitle": "Degen Spin · Farcaster Mini Game",
     "ogDescription": "Simple, juicy spins for Farcaster degens. Safe and Degen modes, daily streaks and virtual wins.",
-    "ogImageUrl": "https://your-domain.com/og-hero.png"
+    "ogImageUrl": "https://degen-spin-7dx92kapg-evgens-projects-4aaa86be.vercel.app/og-hero.png"
   }
 }
